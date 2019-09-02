@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int P,a,b,S;
+    cout<<"vvedite storony treygolnika";
+    cin >> a;
+    cin >> b;
+    S=a*b;
+    P=2*(a+b);
+    cout<< S;
+    cout<< " ";
+    cout<< P;
+    return 0;
+}
